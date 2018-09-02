@@ -1,0 +1,9 @@
+I have learned:
+In python you can work with strings
+In python you can work with lists
+In python you can work with if statements
+In python you can work with dictionaries
+In python you can work with while loops and user input
+In python you can work with functions
+In python you can work with classes
+In python you can handle files and exceptions

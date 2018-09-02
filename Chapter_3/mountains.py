@@ -1,0 +1,18 @@
+mountains = ['mountain 1', 'mountain 2', 'mountain 3']
+print(mountains)
+mountains.append('mountain 4')
+print(mountains)
+del mountains[0]
+print(mountains)
+print("This mountain has been removed from the list : " + mountains.pop())
+print(mountains)
+mountains.remove('mountain 2')
+print(mountains)
+mountains.insert(0, 'mountain 0')
+print(sorted(mountains))
+print(mountains)
+mountains.sort()
+print(mountains)
+mountains.reverse()
+print(mountains)
+print("The length of mountains is: " + str(len(mountains)))

@@ -1,0 +1,21 @@
+guests = ['1', '4', '3']
+print("I found a bigger table!")
+guests.insert(0, '0')
+guests.insert(2, '2')
+guests.append('5')
+print(guests[0] + " you are invited!")
+print(guests[1] + " you are invited!")
+print(guests[2] + " you are invited!")
+print(guests[3] + " you are invited!")
+print(guests[4] + " you are invited!")
+print(guests[5] + " you are invited!")
+print("I can invite only two people for dinner.")
+print(guests.pop() + " I'm sorry I can't invite you to dinner.")
+print(guests.pop() + " I'm sorry I can't invite you to dinner.")
+print(guests.pop() + " I'm sorry I can't invite you to dinner.")
+print(guests.pop() + " I'm sorry I can't invite you to dinner.")
+print(guests[0] + " you are still invited.")
+print(guests[1] + " you are still invited.")
+del guests[1]
+del guests[0]
+print(guests)
