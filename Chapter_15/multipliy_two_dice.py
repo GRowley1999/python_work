@@ -16,7 +16,7 @@ frequencies = [results.count(value) for value in range(2, max_result+1)]
 hist = pygal.Bar()
 
 hist.title = ("Results of rolling two D6 dice 1000 times and multiplying the" 
-        + "results.")
+        + " results.")
 hist.x_labels = range(3, 19)
 hist.x_title = "Result"
 hist.y_title = "Frequency of Result"
