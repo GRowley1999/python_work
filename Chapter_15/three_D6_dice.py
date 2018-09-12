@@ -7,7 +7,8 @@ die_2 = Die()
 die_3 = Die()
 
 # Make some rolls, and store results in a list.
-results = [die_1.roll() + die_2.roll() + die_3.roll() for roll_num in range(1000)]
+results = [die_1.roll() + die_2.roll() + die_3.roll() for roll_num in 
+    range(1000)]
     
 # Analyse the results.
 max_result = die_1.num_sides + die_2.num_sides + die_3.num_sides
